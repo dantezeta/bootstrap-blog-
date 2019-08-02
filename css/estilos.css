@@ -1,0 +1,134 @@
+
+
+/*----------------------------------------topbar escritorio*/
+.topbar{
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.logo{
+margin: 5px 0px 5px 0px;
+display: flex;
+justify-content:flex-start;
+}
+.logo img{
+    border-radius: 5px;
+}
+
+.redes_sociales{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.redes_sociales img{
+border-radius: 5px;
+margin-right: 8px;
+margin-bottom: 8px;
+}
+
+
+@media (min-width:250px) and (max-width:576px) {
+  .logo{
+  display: flex;
+  justify-content: center;
+ }
+ .redes_sociales{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+ }
+ h1{
+   font-size: 30px;
+ }
+}
+
+@media (min-width: 768px) {
+.logo{
+display: flex;
+justify-content: flex-start;
+}
+}
+@media (min-width: 992px) {
+.logo{
+display: flex;
+justify-content: flex-start;
+}
+.inpu{
+
+}
+}
+@media (min-width: 1200px) {
+  .logo{
+  display: flex;
+  justify-content: flex-start;
+ }
+}
+/*--------------------------------------navbar escritorio*/
+.navbar{
+  border-radius: 8px;
+  padding: 8 0 8 0;
+margin-top: 10px;
+display: flex;
+justify-content:space-between;
+}
+
+.contnav{
+  padding: 8 0 8 0;
+  margin: auto;
+}
+.nav{
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+/*--------------------------------------main escritorio*/
+.main{
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.arti{
+display: flex;
+flex-direction: column;
+}
+
+.img-musicos{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.coment{
+  margin-top: 10px;
+}
+.img-planetas{
+  width: 100%;
+  display: flex;
+  justify-content: center
+}
+
+.buscador{
+  margin-top: 10px;
+  border-radius: 10px;
+}
+/*--------------------------------------buscador*/
+.inpu{
+  margin-top: 15px;
+  border-radius: 30px;
+}
+.input_con_icono input{
+  padding-left: 40px;
+}
+.input_con_icono{
+  position: relative;
+}
+.input_con_icono img{
+  position: absolute;
+  left: 5px;
+  top: 25px;
+}
+/*menu post*/
+.menupost{
+  margin-top: 10px;
+}
+.post-item{
+  background-color: grey;
+}
